@@ -90,6 +90,12 @@ Cell.integrated <- merge_subclusters(
 **Kezhao Wu**  
 Maintainer: [Kezhao Wu](mailto:wilsonkwu@gmail.com)
 
+### Contributor
+- [wenxian-lin](https://github.com/wenxian-lin)
+- [XiaminZhang](https://github.com/zhangxiamin)
+- [xiulimao](https://github.com/xiulimao)
+
+
 ## License
 MIT
 
