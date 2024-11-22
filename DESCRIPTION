@@ -1,12 +1,22 @@
 Package: SubClusterTool
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Subclustering and Merging Tool for Seurat Objects
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Kezhao Wu
+Maintainer: Kezhao Wu <wilsonkwu@gmail.com>
+Description: SubClusterTool provides functions to easily perform subclustering on specified clusters within a Seurat object. 
+    Users can view the subclustering results and merge refined labels back into the original Seurat object.
+    This tool is designed to streamline the analysis of large single-cell RNA sequencing datasets by allowing flexible cluster refinement.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+    Seurat,
+    dplyr,
+    plyr
+Suggests:
+    roxygen2,
+    testthat
 RoxygenNote: 7.3.2
+URL: https://github.com/WilsonWukz/SubClusterTool
+BugReports: https://github.com/WilsonWukz/SubClusterTool/issues
